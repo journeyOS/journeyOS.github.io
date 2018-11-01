@@ -13,7 +13,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
     <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
-    <link rel="alternate" type="application/atom+xml" title="Hexo" href="/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="JourneyOS" href="/atom.xml">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
@@ -22,7 +22,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/2018/11/01/hexo_github/">
+    <link rel="canonical" href="http://journeyOS.com/2018/11/01/hexo_github/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -56,7 +56,7 @@
             </button>
             <a class="navbar-brand animated pulse" href="/">
                 <span class="brand-logo">
-                    Hexo
+                    JourneyOS
                 </span>
                 's Blog
             </a>
@@ -139,7 +139,7 @@
                     <h1>Hexo+Github</h1>
                     
                     <span class="meta">
-                         作者 John Doe
+                         作者 Solo
                         <span>
                           日期 2018-11-01
                          </span>
@@ -170,9 +170,9 @@
 <p>然后通过<a href="http://localhost:4000查看本地博客。" target="_blank" rel="noopener">http://localhost:4000查看本地博客。</a></p>
 <h2 id="关联GitHub"><a href="#关联GitHub" class="headerlink" title="关联GitHub"></a>关联GitHub</h2><ul>
 <li>注册并登陆GitHub账号后，新建仓库，名称必须为user.github.io，如journeyOS.github.io</li>
-<li>修改_config.yml<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/journeyOS/journeyOS.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</li>
+<li>修改_config.yml</li>
 </ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/journeyOS/journeyOS.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>重新执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
 <p>若执行hexo generate出错则执行npm install hexo –save，若执行hexo deploy出错则执行npm install hexo-deployer-git –save。错误修正后再次执行hexo generate和hexo deploy上传到服务器。</p>
 
@@ -250,7 +250,7 @@
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; Hexo 2018
+                    Copyright &copy; JourneyOS 2018
                     <br>
                     <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
                     <br>
@@ -287,7 +287,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://yoursite.com/js/jquery.tagcloud.js",function(){
+        async("http://journeyOS.com/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
